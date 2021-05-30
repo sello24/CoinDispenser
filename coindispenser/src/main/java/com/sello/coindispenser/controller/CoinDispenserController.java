@@ -20,7 +20,7 @@ import com.sello.coindispenser.service.CoinDispenserService;
 /*
  * Exposing the service
  */
-
+@RestController
 @RequestMapping("/dispensecoin")
 public class CoinDispenserController{
 
